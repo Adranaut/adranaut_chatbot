@@ -1,2 +1,29 @@
+# Python virtual environment
+# Folder ini tidak boleh di-upload
+venv/
+.venv/
+env/
+.env/
+
+# Folder instance Flask
+instance/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File environment yang berisi API Key
+# SANGAT PENTING untuk diabaikan agar API key tidak bocor
 .env
 *.env
+.flaskenv
+
+# File spesifik dari OS
+.DS_Store
+Thumbs.db
+
+# File spesifik dari IDE/Editor Kode
+.vscode/
+.idea/
