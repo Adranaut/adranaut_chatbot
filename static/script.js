@@ -132,11 +132,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const loadingIndicator = appendMessage("", "bot", true);
 
     try {
-      const response = await fetch("/chat", {
+      // ===== PERUBAHAN DI SINI =====
+      const response = await fetch("/api/chat", {
+        // URL diubah ke /api/chat
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: chatHistory }),
       });
+      // ============================
+
       chatLog.removeChild(loadingIndicator);
       if (!response.ok) {
         const errorData = await response.json();

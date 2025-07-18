@@ -1,0 +1,23 @@
+{
+  "name": "adranaut_chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adranaut/adranaut_chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adranaut/adranaut_chatbot/issues"
+  },
+  "homepage": "https://github.com/Adranaut/adranaut_chatbot#readme",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  }
+}

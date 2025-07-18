@@ -27,3 +27,6 @@ Thumbs.db
 # File spesifik dari IDE/Editor Kode
 .vscode/
 .idea/
+
+# Folder dependensi Node.js
+node_modules/
